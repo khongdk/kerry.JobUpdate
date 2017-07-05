@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kerry.K3.JobUpdate.Scheduler", "Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler.csproj", "{FDF8AA51-2EF9-46BA-8135-982FDBF4EA61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kerry.K3.DB", "Kerry.K3.DB\Kerry.K3.DB.csproj", "{D0A8BEDD-28CB-4A1F-A53D-63C9DAC9255A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K3JobUpdateTest", "K3JobUpdateTest\K3JobUpdateTest.csproj", "{0F84AEF5-4A8E-455E-9D42-D7B8F132B62A}"
+EndProject
+Global
+	
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

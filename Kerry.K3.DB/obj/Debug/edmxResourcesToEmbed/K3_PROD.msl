@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="K3ProdModelStoreContainer" CdmEntityContainer="K3Prod">
+    <EntitySetMapping Name="ACTION_JOB">
+      <EntityTypeMapping TypeName="K3ProdModel.ACTION_JOB">
+        <MappingFragment StoreEntitySet="ACTION_JOB">
+          <ScalarProperty Name="UPDATEDATE" ColumnName="UPDATEDATE" />
+          <ScalarProperty Name="UPDATEBY" ColumnName="UPDATEBY" />
+          <ScalarProperty Name="CREATEDATE" ColumnName="CREATEDATE" />
+          <ScalarProperty Name="CREATEBY" ColumnName="CREATEBY" />
+          <ScalarProperty Name="STATUS" ColumnName="STATUS" />
+          <ScalarProperty Name="ACTION" ColumnName="ACTION" />
+          <ScalarProperty Name="OWNERID" ColumnName="OWNERID" />
+          <ScalarProperty Name="SHPTYPE" ColumnName="SHPTYPE" />
+          <ScalarProperty Name="BIZTYPE" ColumnName="BIZTYPE" />
+          <ScalarProperty Name="CONSOLLOT_UNID" ColumnName="CONSOLLOT_UNID" />
+          <ScalarProperty Name="CONSOLNO" ColumnName="CONSOLNO" />
+          <ScalarProperty Name="SHPNO" ColumnName="SHPNO" />
+          <ScalarProperty Name="JOB_UNID" ColumnName="JOB_UNID" />
+          <ScalarProperty Name="UNID" ColumnName="UNID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

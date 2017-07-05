@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model.Store" Provider="Oracle.ManagedDataAccess.Client" ProviderManifestToken="11.2" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="JOB">
+    <Key>
+      <PropertyRef Name="UNID" />
+    </Key>
+    <Property Name="UNID" Type="number" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="VV_UNID" Type="number" Precision="18" Scale="0" />
+    <Property Name="VVSECOND_UNID" Type="number" Precision="18" Scale="0" />
+    <Property Name="OWNERID" Type="varchar2" MaxLength="10" Nullable="false" />
+    <Property Name="GSHPID" Type="varchar2" MaxLength="30" Nullable="false" />
+    <Property Name="BIZTYPE" Type="varchar2" MaxLength="2" />
+    <Property Name="BOOKINGNO" Type="varchar2" MaxLength="20" />
+    <Property Name="BOOKINGDATE" Type="date" />
+    <Property Name="SHPNO" Type="varchar2" MaxLength="30" />
+    <Property Name="CONSOLNO" Type="varchar2" MaxLength="30" />
+    <Property Name="CONSOLLOT_UNID" Type="number" Precision="18" Scale="0" />
+    <Property Name="JOBNO" Type="varchar2" MaxLength="20" />
+    <Property Name="JOBDATE" Type="date" />
+    <Property Name="PROJECTNO" Type="varchar2" MaxLength="20" />
+    <Property Name="SHPTYPE" Type="varchar2" MaxLength="1" />
+    <Property Name="OAGENT" Type="varchar2" MaxLength="10" />
+    <Property Name="PARTYID_CUST" Type="varchar2" MaxLength="10" />
+    <Property Name="CUSTNAME" Type="varchar2" MaxLength="70" />
+    <Property Name="CARRIERID" Type="varchar2" MaxLength="10" />
+    <Property Name="CARRIERCODE" Type="varchar2" MaxLength="10" />
+    <Property Name="PARTYID_SHPR" Type="varchar2" MaxLength="10" />
+    <Property Name="SHPRNAME" Type="varchar2" MaxLength="70" />
+    <Property Name="PARTYID_CSGN" Type="varchar2" MaxLength="10" />
+    <Property Name="CSGNNAME" Type="varchar2" MaxLength="70" />
+    <Property Name="PORCITY" Type="varchar2" MaxLength="3" />
+    <Property Name="PORCTRY" Type="varchar2" MaxLength="2" />
+    <Property Name="PORNAME" Type="varchar2" MaxLength="35" />
+    <Property Name="PORMODE" Type="varchar2" MaxLength="10" />
+    <Property Name="POLCITY" Type="varchar2" MaxLength="3" />
+    <Property Name="POLCTRY" Type="varchar2" MaxLength="2" />
+    <Property Name="POLNAME" Type="varchar2" MaxLength="35" />
+    <Property Name="VIACITY" Type="varchar2" MaxLength="3" />
+    <Property Name="VIACTRY" Type="varchar2" MaxLength="2" />
+    <Property Name="PODCITY" Type="varchar2" MaxLength="3" />
+    <Property Name="PODCTRY" Type="varchar2" MaxLength="2" />
+    <Property Name="PODNAME" Type="varchar2" MaxLength="35" />
+    <Property Name="DESTCITY" Type="varchar2" MaxLength="3" />
+    <Property Name="DESTCTRY" Type="varchar2" MaxLength="2" />
+    <Property Name="DESTNAME" Type="varchar2" MaxLength="35" />
+    <Property Name="DEVRYCITY" Type="varchar2" MaxLength="3" />
+    <Property Name="DEVRYCTRY" Type="varchar2" MaxLength="2" />
+    <Property Name="DEVRYNAME" Type="varchar2" MaxLength="35" />
+    <Property Name="FLTDATE" Type="date" />
+    <Property Name="FLTTIME" Type="varchar2" MaxLength="4" />
+    <Property Name="TOTPCS" Type="number" Precision="9" Scale="0" />
+    <Property Name="TOTPCS_UT" Type="varchar2" MaxLength="8" />
+    <Property Name="TOTGWGT" Type="number" Precision="14" Scale="4" />
+    <Property Name="TOTGWGT_UT" Type="varchar2" MaxLength="3" />
+    <Property Name="TOTCWGT" Type="number" Precision="14" Scale="4" />
+    <Property Name="TOTCWGT_UT" Type="varchar2" MaxLength="3" />
+    <Property Name="VWGT" Type="number" Precision="13" Scale="3" />
+    <Property Name="VWGT_UT" Type="varchar2" MaxLength="3" />
+    <Property Name="AWBBLDATE" Type="date" />
+    <Property Name="ORGID" Type="varchar2" MaxLength="10" />
+    <Property Name="JOBSTAGECODE" Type="varchar2" MaxLength="1" />
+    <Property Name="CURRENTSTATUS" Type="varchar2" MaxLength="10" />
+    <Property Name="CURRENTSTAGE" Type="varchar2" MaxLength="10" />
+    <Property Name="PROCESSSTATUS" Type="varchar2" MaxLength="1" />
+    <Property Name="USERHLEVEL" Type="varchar2" MaxLength="2000" />
+    <Property Name="CREATEBY" Type="varchar2" MaxLength="10" />
+    <Property Name="CREATEDATE" Type="date" />
+    <Property Name="UPDATEBY" Type="varchar2" MaxLength="10" />
+    <Property Name="UPDATEDATE" Type="date" />
+    <Property Name="TIMEZONE" Type="varchar2" MaxLength="50" />
+    <Property Name="TOTVOL" Type="number" Precision="14" Scale="4" />
+    <Property Name="TOTVOL_UT" Type="varchar2" MaxLength="3" />
+    <Property Name="VOIDBY" Type="varchar2" MaxLength="10" />
+    <Property Name="VOIDDATE" Type="date" />
+    <Property Name="ISBOOKING" Type="number" Precision="1" Scale="0" />
+    <Property Name="ISSHP" Type="number" Precision="1" Scale="0" />
+    <Property Name="TOTNWGT" Type="number" Precision="13" Scale="3" />
+    <Property Name="TOTNWGT_UT" Type="varchar2" MaxLength="3" />
+    <Property Name="TOTINNERPCS" Type="number" Precision="14" Scale="4" />
+    <Property Name="TOTINNERPCS_UT" Type="varchar2" MaxLength="3" />
+    <Property Name="CONCLOSEDATE" Type="date" />
+    <Property Name="CONCLOSEBY" Type="varchar2" MaxLength="10" />
+    <Property Name="FINCLOSEDATE" Type="date" />
+    <Property Name="FINCLOSEBY" Type="varchar2" MaxLength="10" />
+    <Property Name="PODATE" Type="date" />
+    <Property Name="POTIME" Type="varchar2" MaxLength="4" />
+    <Property Name="BOOKINGTIME" Type="varchar2" MaxLength="4" />
+    <Property Name="CONSOLBKNO" Type="varchar2" MaxLength="20" />
+    <Property Name="SUREFNO" Type="varchar2" MaxLength="50" />
+    <Property Name="SPREFNO" Type="varchar2" MaxLength="50" />
+    <Property Name="VOIDTYPE" Type="varchar2" MaxLength="1" />
+    <Property Name="REVCLOSEDATE" Type="date" />
+    <Property Name="REVCLOSEBY" Type="varchar2" MaxLength="10" />
+    <Property Name="COSTCLOSEDATE" Type="date" />
+    <Property Name="COSTCLOSEBY" Type="varchar2" MaxLength="10" />
+    <Property Name="TOTNVOL" Type="number" Precision="14" Scale="4" />
+    <Property Name="ISCWGTBASENET" Type="number" Precision="1" Scale="0" />
+    <Property Name="JOBTYPE" Type="varchar2" MaxLength="10" />
+    <Property Name="VIANAME" Type="varchar2" MaxLength="35" />
+    <Property Name="QUOTENO" Type="varchar2" MaxLength="20" />
+    <Property Name="QUOTESUBNO" Type="varchar2" MaxLength="10" />
+    <Property Name="QUOTE_UNID" Type="number" Precision="18" Scale="0" />
+    <Property Name="VALIDFROM" Type="date" />
+    <Property Name="VALIDTO" Type="date" />
+    <Property Name="EFFECTVALIDTO" Type="date" />
+    <Property Name="QUOTETYPE" Type="varchar2" MaxLength="20" />
+    <Property Name="PORETADATE" Type="date" />
+    <Property Name="PORETATIME" Type="varchar2" MaxLength="4" />
+    <Property Name="DEVRYETDDATE" Type="date" />
+    <Property Name="DEVRYETDTIME" Type="varchar2" MaxLength="4" />
+    <Property Name="PORETDDATE" Type="date" />
+    <Property Name="PORETDTIME" Type="varchar2" MaxLength="4" />
+    <Property Name="DEVRYETADATE" Type="date" />
+    <Property Name="DEVRYETATIME" Type="varchar2" MaxLength="4" />
+    <Property Name="SENDERID" Type="varchar2" MaxLength="10" />
+    <Property Name="POSTDATETOBE" Type="date" />
+    <Property Name="CLOSINGDATE" Type="date" />
+    <Property Name="TOBASEEXRATE" Type="number" Precision="14" Scale="7" />
+    <Property Name="FROMBASEEXRATE" Type="number" Precision="14" Scale="7" />
+    <Property Name="SHIPMENTUNID" Type="number" Precision="18" Scale="0" />
+    <Property Name="CONVTOTGWGT" Type="number" Precision="14" Scale="4" />
+    <Property Name="CONVTOTGWGT_UT" Type="varchar2" MaxLength="3" />
+    <Property Name="CONVTOTNWGT" Type="number" Precision="13" Scale="3" />
+    <Property Name="CONVTOTNWGT_UT" Type="varchar2" MaxLength="3" />
+    <Property Name="CONVTOTVOL" Type="number" Precision="14" Scale="4" />
+    <Property Name="CONVTOTVOL_UT" Type="varchar2" MaxLength="3" />
+    <Property Name="CONVTOTNVOL" Type="number" Precision="14" Scale="4" />
+    <Property Name="POLETDDATE" Type="date" />
+    <Property Name="PODETADATE" Type="date" />
+    <Property Name="FINALDESTETADATE" Type="date" />
+    <Property Name="VVTHIRD_UNID" Type="number" Precision="18" Scale="0" />
+    <Property Name="RECOGNITION" Type="number" Precision="1" Scale="0" />
+    <Property Name="POLPORTSNO" Type="number" Precision="9" Scale="0" />
+    <Property Name="PODPORTSNO" Type="number" Precision="9" Scale="0" />
+    <Property Name="POLVVUNID" Type="number" Precision="18" Scale="0" />
+    <Property Name="PODVVUNID" Type="number" Precision="18" Scale="0" />
+    <Property Name="VIAZONE" Type="varchar2" MaxLength="10" />
+    <Property Name="TSPCITY" Type="varchar2" MaxLength="3" />
+    <Property Name="TSPCTRY" Type="varchar2" MaxLength="2" />
+    <Property Name="TSPNAME" Type="varchar2" MaxLength="35" />
+    <Property Name="ISBTBSHP" Type="number" Precision="1" Scale="0" />
+    <Property Name="ISLOCALJOB" Type="number" Precision="1" Scale="0" />
+    <Property Name="ISHUB" Type="number" Precision="1" Scale="0" />
+    <Property Name="READYCLOSEBY" Type="varchar2" MaxLength="10" />
+    <Property Name="POLETDTIME" Type="varchar2" MaxLength="4" />
+    <Property Name="PODETATIME" Type="varchar2" MaxLength="4" />
+    <Property Name="LASTRECDATE" Type="date" />
+    <Property Name="LASTRECTIME" Type="varchar2" MaxLength="4" />
+  </EntityType>
+  <EntityContainer Name="ModelStoreContainer">
+    <EntitySet Name="JOB" EntityType="Self.JOB" Schema="KEWILLFWD" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

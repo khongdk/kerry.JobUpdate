@@ -1,0 +1,7 @@
+D:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.DB\bin\Debug\Kerry.K3.DB.dll.config
+D:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.DB\bin\Debug\Kerry.K3.DB.dll
+D:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.DB\bin\Debug\Kerry.K3.DB.pdb
+D:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.DB\bin\Debug\EntityFramework.dll
+D:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.DB\bin\Debug\EntityFramework.xml
+D:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.DB\obj\Debug\Kerry.K3.DB.dll
+D:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.DB\obj\Debug\Kerry.K3.DB.pdb

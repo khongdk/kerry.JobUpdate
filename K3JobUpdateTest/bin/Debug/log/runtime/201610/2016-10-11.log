@@ -1,0 +1,46 @@
+----------------------header--------------------------
+Current Time:2016-10-11 09:49:06,016 Type:[INFO]  Information:prod update job  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\K3JobUpdateTest\UnitTest1.cs Line:107 
+Current Time:2016-10-11 09:49:07,563 Type:[INFO]  Information:Start update Link job :  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\JobUpdate.cs Line:32 
+Current Time:2016-10-11 09:49:08,733 Type:[INFO]  Information:Update Command error :ORA-00933: SQL 命令未正确结束  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\JobUpdate.cs Line:84 
+Current Time:2016-10-11 09:49:09,711 Type:[INFO]  Information:Update Command error :ORA-00933: SQL 命令未正确结束  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\JobUpdate.cs Line:84 
+Current Time:2016-10-11 09:49:09,898 Type:[INFO]  Information:Update Command error :ORA-00933: SQL 命令未正确结束  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\JobUpdate.cs Line:84 
+Current Time:2016-10-11 09:49:09,899 Type:[INFO]  Information:LinkJob count : 3  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\K3JobUpdateTest\UnitTest1.cs Line:111 
+Current Time:2016-10-11 09:49:09,970 Type:[INFO]  Information:Start update UnLink job :  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\JobUpdate.cs Line:104 
+Current Time:2016-10-11 09:49:10,948 Type:[INFO]  Information:update UnLink job Fail Job_unid :732780  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\JobUpdate.cs Line:142 
+Current Time:2016-10-11 09:49:11,345 Type:[INFO]  Information:UnLinkJob count : 1  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\K3JobUpdateTest\UnitTest1.cs Line:113 
+----------------------footer--------------------------
+----------------------header--------------------------
+Current Time:2016-10-11 09:49:17,407 Type:[INFO]  Information:prod update job  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\K3JobUpdateTest\UnitTest1.cs Line:107 
+Current Time:2016-10-11 09:49:36,744 Type:[INFO]  Information:Start update Link job :  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\JobUpdate.cs Line:32 
+----------------------header--------------------------
+Current Time:2016-10-11 09:51:20,112 Type:[INFO]  Information:prod update job  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\K3JobUpdateTest\UnitTest1.cs Line:107 
+Current Time:2016-10-11 09:51:21,907 Type:[INFO]  Information:Start update Link job :  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\JobUpdate.cs Line:32 
+----------------------header--------------------------
+Current Time:2016-10-11 09:52:42,065 Type:[INFO]  Information:prod update job  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\K3JobUpdateTest\UnitTest1.cs Line:107 
+Current Time:2016-10-11 09:53:00,722 Type:[INFO]  Information:Start update Link job :  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\JobUpdate.cs Line:32 
+----------------------header--------------------------
+Current Time:2016-10-11 09:58:24,065 Type:[INFO]  Information:prod update job  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\K3JobUpdateTest\UnitTest1.cs Line:107 
+Current Time:2016-10-11 09:58:35,100 Type:[INFO]  Information:Start update Link job :  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\JobUpdate.cs Line:32 
+Current Time:2016-10-11 09:59:19,865 Type:[INFO]  Information:Update Command error :ORA-04044: 此处不允许过程, 函数, 程序包或类型  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\JobUpdate.cs Line:84 
+Current Time:2016-10-11 09:59:55,226 Type:[INFO]  Information:Update Command error :ORA-04044: 此处不允许过程, 函数, 程序包或类型  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\JobUpdate.cs Line:84 
+Current Time:2016-10-11 10:03:36,232 Type:[INFO]  Information:Update Command error :ORA-04044: 此处不允许过程, 函数, 程序包或类型  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\JobUpdate.cs Line:84 
+Current Time:2016-10-11 10:03:36,241 Type:[INFO]  Information:LinkJob count : 3  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\K3JobUpdateTest\UnitTest1.cs Line:111 
+----------------------header--------------------------
+Current Time:2016-10-11 10:04:04,460 Type:[INFO]  Information:prod update job  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\K3JobUpdateTest\UnitTest1.cs Line:107 
+Current Time:2016-10-11 10:04:10,860 Type:[INFO]  Information:Start update Link job :  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\JobUpdate.cs Line:32 
+Current Time:2016-10-11 10:04:21,664 Type:[INFO]  Information:Update Command error :ORA-04044: 此处不允许过程, 函数, 程序包或类型  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\JobUpdate.cs Line:84 
+Current Time:2016-10-11 10:04:30,126 Type:[INFO]  Information:Update Command error :ORA-04044: 此处不允许过程, 函数, 程序包或类型  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\JobUpdate.cs Line:84 
+Current Time:2016-10-11 10:04:37,190 Type:[INFO]  Information:Update Command error :ORA-04044: 此处不允许过程, 函数, 程序包或类型  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\JobUpdate.cs Line:84 
+----------------------header--------------------------
+Current Time:2016-10-11 10:08:45,700 Type:[INFO]  Information:prod update job  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\K3JobUpdateTest\UnitTest1.cs Line:107 
+Current Time:2016-10-11 10:08:52,598 Type:[INFO]  Information:Start update Link job :  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\JobUpdate.cs Line:32 
+Current Time:2016-10-11 10:09:04,967 Type:[INFO]  Information:update Link job Fail Job_unid :1758674  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\JobUpdate.cs Line:70 
+Current Time:2016-10-11 10:09:35,332 Type:[INFO]  Information:update Link job Fail Job_unid :1758674  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\JobUpdate.cs Line:70 
+Current Time:2016-10-11 10:09:55,751 Type:[INFO]  Information:LinkJob count : 3  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\K3JobUpdateTest\UnitTest1.cs Line:111 
+----------------------header--------------------------
+Current Time:2016-10-11 10:54:17,039 Type:[INFO]  Information:prod update job  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\K3JobUpdateTest\UnitTest1.cs Line:107 
+Current Time:2016-10-11 10:54:41,820 Type:[INFO]  Information:Start update Link job :  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\JobUpdate.cs Line:32 
+----------------------header--------------------------
+Current Time:2016-10-11 10:56:16,613 Type:[INFO]  Information:prod update job  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\K3JobUpdateTest\UnitTest1.cs Line:107 
+Current Time:2016-10-11 10:56:23,595 Type:[INFO]  Information:Start update Link job :  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\JobUpdate.cs Line:32 
+Current Time:2016-10-11 10:56:44,494 Type:[INFO]  Information:LinkJob count : 1  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\K3JobUpdateTest\UnitTest1.cs Line:111 

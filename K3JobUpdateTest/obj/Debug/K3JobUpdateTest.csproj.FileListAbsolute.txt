@@ -1,0 +1,14 @@
+D:\Project\Kerry.K3.JobUpdate.Scheduler\K3JobUpdateTest\bin\Debug\K3JobUpdateTest.dll.config
+D:\Project\Kerry.K3.JobUpdate.Scheduler\K3JobUpdateTest\bin\Debug\K3JobUpdateTest.dll
+D:\Project\Kerry.K3.JobUpdate.Scheduler\K3JobUpdateTest\bin\Debug\K3JobUpdateTest.pdb
+D:\Project\Kerry.K3.JobUpdate.Scheduler\K3JobUpdateTest\bin\Debug\EntityFramework.dll
+D:\Project\Kerry.K3.JobUpdate.Scheduler\K3JobUpdateTest\bin\Debug\Kerry.K3.JobUpdate.Scheduler.exe
+D:\Project\Kerry.K3.JobUpdate.Scheduler\K3JobUpdateTest\bin\Debug\log4net.dll
+D:\Project\Kerry.K3.JobUpdate.Scheduler\K3JobUpdateTest\bin\Debug\Kerry.K3.DB.dll
+D:\Project\Kerry.K3.JobUpdate.Scheduler\K3JobUpdateTest\bin\Debug\Kerry.K3.JobUpdate.Scheduler.pdb
+D:\Project\Kerry.K3.JobUpdate.Scheduler\K3JobUpdateTest\bin\Debug\EntityFramework.xml
+D:\Project\Kerry.K3.JobUpdate.Scheduler\K3JobUpdateTest\bin\Debug\log4net.xml
+D:\Project\Kerry.K3.JobUpdate.Scheduler\K3JobUpdateTest\bin\Debug\Kerry.K3.DB.pdb
+D:\Project\Kerry.K3.JobUpdate.Scheduler\K3JobUpdateTest\obj\Debug\K3JobUpdateTest.csprojResolveAssemblyReference.cache
+D:\Project\Kerry.K3.JobUpdate.Scheduler\K3JobUpdateTest\obj\Debug\K3JobUpdateTest.dll
+D:\Project\Kerry.K3.JobUpdate.Scheduler\K3JobUpdateTest\obj\Debug\K3JobUpdateTest.pdb

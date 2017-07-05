@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="K3ProdModel.Store" Provider="Oracle.DataAccess.Client" ProviderManifestToken="11.2" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="ACTION_JOB">
+          <Key>
+            <PropertyRef Name="UNID" />
+          </Key>
+          <Property Name="UNID" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="JOB_UNID" Type="number" Precision="18" Scale="0" Nullable="false" />
+          <Property Name="SHPNO" Type="varchar2" MaxLength="30" />
+          <Property Name="CONSOLNO" Type="varchar2" MaxLength="30" />
+          <Property Name="CONSOLLOT_UNID" Type="number" Precision="18" Scale="0" />
+          <Property Name="BIZTYPE" Type="varchar2" MaxLength="2" />
+          <Property Name="SHPTYPE" Type="varchar2" MaxLength="1" />
+          <Property Name="OWNERID" Type="varchar2" MaxLength="10" />
+          <Property Name="ACTION" Type="varchar2" MaxLength="2" />
+          <Property Name="STATUS" Type="varchar2" MaxLength="2" />
+          <Property Name="CREATEBY" Type="varchar2" MaxLength="20" />
+          <Property Name="CREATEDATE" Type="date" />
+          <Property Name="UPDATEBY" Type="varchar2" MaxLength="20" />
+          <Property Name="UPDATEDATE" Type="date" />
+        </EntityType>
+        <EntityContainer Name="K3ProdModelStoreContainer">
+          <EntitySet Name="ACTION_JOB" EntityType="Self.ACTION_JOB" Schema="K35INTF" store:Type="Tables" />
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="K3ProdModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="K3Prod" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="ACTION_JOB" EntityType="K3ProdModel.ACTION_JOB" />
+        </EntityContainer>
+        <EntityType Name="ACTION_JOB">
+          <Key>
+            <PropertyRef Name="UNID" />
+          </Key>
+          <Property Name="UNID" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+          <Property Name="JOB_UNID" Type="Int64" Nullable="false" />
+          <Property Name="SHPNO" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="CONSOLNO" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="CONSOLLOT_UNID" Type="Int64" />
+          <Property Name="BIZTYPE" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+          <Property Name="SHPTYPE" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+          <Property Name="OWNERID" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="ACTION" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+          <Property Name="STATUS" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+          <Property Name="CREATEBY" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="CREATEDATE" Type="DateTime" />
+          <Property Name="UPDATEBY" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="UPDATEDATE" Type="DateTime" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="K3ProdModelStoreContainer" CdmEntityContainer="K3Prod">
+          <EntitySetMapping Name="ACTION_JOB">
+            <EntityTypeMapping TypeName="K3ProdModel.ACTION_JOB">
+              <MappingFragment StoreEntitySet="ACTION_JOB">
+                <ScalarProperty Name="UPDATEDATE" ColumnName="UPDATEDATE" />
+                <ScalarProperty Name="UPDATEBY" ColumnName="UPDATEBY" />
+                <ScalarProperty Name="CREATEDATE" ColumnName="CREATEDATE" />
+                <ScalarProperty Name="CREATEBY" ColumnName="CREATEBY" />
+                <ScalarProperty Name="STATUS" ColumnName="STATUS" />
+                <ScalarProperty Name="ACTION" ColumnName="ACTION" />
+                <ScalarProperty Name="OWNERID" ColumnName="OWNERID" />
+                <ScalarProperty Name="SHPTYPE" ColumnName="SHPTYPE" />
+                <ScalarProperty Name="BIZTYPE" ColumnName="BIZTYPE" />
+                <ScalarProperty Name="CONSOLLOT_UNID" ColumnName="CONSOLLOT_UNID" />
+                <ScalarProperty Name="CONSOLNO" ColumnName="CONSOLNO" />
+                <ScalarProperty Name="SHPNO" ColumnName="SHPNO" />
+                <ScalarProperty Name="JOB_UNID" ColumnName="JOB_UNID" />
+                <ScalarProperty Name="UNID" ColumnName="UNID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="true" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

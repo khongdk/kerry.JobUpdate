@@ -1,0 +1,29 @@
+----------------------header--------------------------
+Current Time:2016-10-09 16:51:10,767 Type:[INFO]  Information:prod update job  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\K3JobUpdateTest\UnitTest1.cs Line:119 
+Current Time:2016-10-09 16:51:15,524 Type:[INFO]  Information:------Start insert into table joblink data :------  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\InsertActionJob.cs Line:58 
+Current Time:2016-10-09 16:51:18,614 Type:[INFO]  Information:Add Command error :ORA-01031: 权限不足  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\InsertActionJob.cs Line:79 
+----------------------footer--------------------------
+----------------------header--------------------------
+Current Time:2016-10-09 17:13:14,967 Type:[INFO]  Information:prod update job  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\K3JobUpdateTest\UnitTest1.cs Line:119 
+Current Time:2016-10-09 17:13:17,056 Type:[INFO]  Information:------Start insert into table joblink data :------  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\InsertActionJob.cs Line:58 
+Current Time:2016-10-09 17:13:19,544 Type:[INFO]  Information:Add Command error :ORA-01031: 权限不足  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\InsertActionJob.cs Line:79 
+----------------------footer--------------------------
+----------------------header--------------------------
+Current Time:2016-10-09 17:13:29,736 Type:[INFO]  Information:prod update job  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\K3JobUpdateTest\UnitTest1.cs Line:119 
+Current Time:2016-10-09 17:13:42,738 Type:[INFO]  Information:------Start insert into table joblink data :------  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\InsertActionJob.cs Line:58 
+Current Time:2016-10-09 17:13:44,866 Type:[INFO]  Information:Add Command error :ORA-01031: 权限不足  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\InsertActionJob.cs Line:79 
+----------------------header--------------------------
+Current Time:2016-10-09 17:15:49,327 Type:[INFO]  Information:prod update job  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\K3JobUpdateTest\UnitTest1.cs Line:119 
+Current Time:2016-10-09 17:16:26,181 Type:[INFO]  Information:------Start insert into table joblink data :------  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\InsertActionJob.cs Line:58 
+Current Time:2016-10-09 17:17:27,348 Type:[INFO]  Information:Add Command error :ORA-01031: 权限不足  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\InsertActionJob.cs Line:79 
+----------------------header--------------------------
+Current Time:2016-10-09 17:18:45,452 Type:[INFO]  Information:prod update job  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\K3JobUpdateTest\UnitTest1.cs Line:119 
+Current Time:2016-10-09 17:19:30,421 Type:[INFO]  Information:------Start insert into table joblink data :------  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\InsertActionJob.cs Line:58 
+----------------------header--------------------------
+Current Time:2016-10-09 17:30:34,971 Type:[INFO]  Information:prod update job  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\K3JobUpdateTest\UnitTest1.cs Line:119 
+----------------------header--------------------------
+Current Time:2016-10-09 17:30:50,453 Type:[INFO]  Information:prod update job  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\K3JobUpdateTest\UnitTest1.cs Line:119 
+Current Time:2016-10-09 17:30:52,068 Type:[INFO]  Information:------Start insert into table joblink data :------  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\InsertActionJob.cs Line:58 
+----------------------header--------------------------
+Current Time:2016-10-09 17:31:48,379 Type:[INFO]  Information:prod update job  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\K3JobUpdateTest\UnitTest1.cs Line:119 
+Current Time:2016-10-09 17:31:56,066 Type:[INFO]  Information:------Start insert into table joblink data :------  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\InsertActionJob.cs Line:58 

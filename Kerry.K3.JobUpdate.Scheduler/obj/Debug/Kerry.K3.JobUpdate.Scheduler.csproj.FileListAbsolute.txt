@@ -1,0 +1,15 @@
+D:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\bin\Debug\Kerry.K3.JobUpdate.Scheduler.exe.config
+D:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\bin\Debug\Kerry.K3.JobUpdate.Scheduler.exe
+D:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\bin\Debug\Kerry.K3.JobUpdate.Scheduler.pdb
+D:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\bin\Debug\EntityFramework.dll
+D:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\bin\Debug\Kerry.K3.DB.dll
+D:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\bin\Debug\log4net.dll
+D:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\bin\Debug\Kerry.K3.DB.pdb
+D:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\bin\Debug\EntityFramework.xml
+D:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\bin\Debug\log4net.xml
+D:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\obj\Debug\Kerry.K3.JobUpdate.Scheduler.csprojResolveAssemblyReference.cache
+D:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\obj\Debug\Kerry.K3.JobUpdate.Scheduler.JobUpdateScheduler.resources
+D:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\obj\Debug\Kerry.K3.JobUpdate.Scheduler.ProjectInstaller.resources
+D:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\obj\Debug\Kerry.K3.JobUpdate.Scheduler.csproj.GenerateResource.Cache
+D:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\obj\Debug\Kerry.K3.JobUpdate.Scheduler.exe
+D:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\obj\Debug\Kerry.K3.JobUpdate.Scheduler.pdb

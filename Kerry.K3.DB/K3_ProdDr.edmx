@@ -1,0 +1,490 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="Model.Store" Provider="Oracle.ManagedDataAccess.Client" ProviderManifestToken="11.2" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="JOB">
+          <Key>
+            <PropertyRef Name="UNID" />
+          </Key>
+          <Property Name="UNID" Type="number" Precision="18" Scale="0" Nullable="false" />
+          <Property Name="VV_UNID" Type="number" Precision="18" Scale="0" />
+          <Property Name="VVSECOND_UNID" Type="number" Precision="18" Scale="0" />
+          <Property Name="OWNERID" Type="varchar2" MaxLength="10" Nullable="false" />
+          <Property Name="GSHPID" Type="varchar2" MaxLength="30" Nullable="false" />
+          <Property Name="BIZTYPE" Type="varchar2" MaxLength="2" />
+          <Property Name="BOOKINGNO" Type="varchar2" MaxLength="20" />
+          <Property Name="BOOKINGDATE" Type="date" />
+          <Property Name="SHPNO" Type="varchar2" MaxLength="30" />
+          <Property Name="CONSOLNO" Type="varchar2" MaxLength="30" />
+          <Property Name="CONSOLLOT_UNID" Type="number" Precision="18" Scale="0" />
+          <Property Name="JOBNO" Type="varchar2" MaxLength="20" />
+          <Property Name="JOBDATE" Type="date" />
+          <Property Name="PROJECTNO" Type="varchar2" MaxLength="20" />
+          <Property Name="SHPTYPE" Type="varchar2" MaxLength="1" />
+          <Property Name="OAGENT" Type="varchar2" MaxLength="10" />
+          <Property Name="PARTYID_CUST" Type="varchar2" MaxLength="10" />
+          <Property Name="CUSTNAME" Type="varchar2" MaxLength="70" />
+          <Property Name="CARRIERID" Type="varchar2" MaxLength="10" />
+          <Property Name="CARRIERCODE" Type="varchar2" MaxLength="10" />
+          <Property Name="PARTYID_SHPR" Type="varchar2" MaxLength="10" />
+          <Property Name="SHPRNAME" Type="varchar2" MaxLength="70" />
+          <Property Name="PARTYID_CSGN" Type="varchar2" MaxLength="10" />
+          <Property Name="CSGNNAME" Type="varchar2" MaxLength="70" />
+          <Property Name="PORCITY" Type="varchar2" MaxLength="3" />
+          <Property Name="PORCTRY" Type="varchar2" MaxLength="2" />
+          <Property Name="PORNAME" Type="varchar2" MaxLength="35" />
+          <Property Name="PORMODE" Type="varchar2" MaxLength="10" />
+          <Property Name="POLCITY" Type="varchar2" MaxLength="3" />
+          <Property Name="POLCTRY" Type="varchar2" MaxLength="2" />
+          <Property Name="POLNAME" Type="varchar2" MaxLength="35" />
+          <Property Name="VIACITY" Type="varchar2" MaxLength="3" />
+          <Property Name="VIACTRY" Type="varchar2" MaxLength="2" />
+          <Property Name="PODCITY" Type="varchar2" MaxLength="3" />
+          <Property Name="PODCTRY" Type="varchar2" MaxLength="2" />
+          <Property Name="PODNAME" Type="varchar2" MaxLength="35" />
+          <Property Name="DESTCITY" Type="varchar2" MaxLength="3" />
+          <Property Name="DESTCTRY" Type="varchar2" MaxLength="2" />
+          <Property Name="DESTNAME" Type="varchar2" MaxLength="35" />
+          <Property Name="DEVRYCITY" Type="varchar2" MaxLength="3" />
+          <Property Name="DEVRYCTRY" Type="varchar2" MaxLength="2" />
+          <Property Name="DEVRYNAME" Type="varchar2" MaxLength="35" />
+          <Property Name="FLTDATE" Type="date" />
+          <Property Name="FLTTIME" Type="varchar2" MaxLength="4" />
+          <Property Name="TOTPCS" Type="number" Precision="9" Scale="0" />
+          <Property Name="TOTPCS_UT" Type="varchar2" MaxLength="8" />
+          <Property Name="TOTGWGT" Type="number" Precision="14" Scale="4" />
+          <Property Name="TOTGWGT_UT" Type="varchar2" MaxLength="3" />
+          <Property Name="TOTCWGT" Type="number" Precision="14" Scale="4" />
+          <Property Name="TOTCWGT_UT" Type="varchar2" MaxLength="3" />
+          <Property Name="VWGT" Type="number" Precision="13" Scale="3" />
+          <Property Name="VWGT_UT" Type="varchar2" MaxLength="3" />
+          <Property Name="AWBBLDATE" Type="date" />
+          <Property Name="ORGID" Type="varchar2" MaxLength="10" />
+          <Property Name="JOBSTAGECODE" Type="varchar2" MaxLength="1" />
+          <Property Name="CURRENTSTATUS" Type="varchar2" MaxLength="10" />
+          <Property Name="CURRENTSTAGE" Type="varchar2" MaxLength="10" />
+          <Property Name="PROCESSSTATUS" Type="varchar2" MaxLength="1" />
+          <Property Name="USERHLEVEL" Type="varchar2" MaxLength="2000" />
+          <Property Name="CREATEBY" Type="varchar2" MaxLength="10" />
+          <Property Name="CREATEDATE" Type="date" />
+          <Property Name="UPDATEBY" Type="varchar2" MaxLength="10" />
+          <Property Name="UPDATEDATE" Type="date" />
+          <Property Name="TIMEZONE" Type="varchar2" MaxLength="50" />
+          <Property Name="TOTVOL" Type="number" Precision="14" Scale="4" />
+          <Property Name="TOTVOL_UT" Type="varchar2" MaxLength="3" />
+          <Property Name="VOIDBY" Type="varchar2" MaxLength="10" />
+          <Property Name="VOIDDATE" Type="date" />
+          <Property Name="ISBOOKING" Type="number" Precision="1" Scale="0" />
+          <Property Name="ISSHP" Type="number" Precision="1" Scale="0" />
+          <Property Name="TOTNWGT" Type="number" Precision="13" Scale="3" />
+          <Property Name="TOTNWGT_UT" Type="varchar2" MaxLength="3" />
+          <Property Name="TOTINNERPCS" Type="number" Precision="14" Scale="4" />
+          <Property Name="TOTINNERPCS_UT" Type="varchar2" MaxLength="3" />
+          <Property Name="CONCLOSEDATE" Type="date" />
+          <Property Name="CONCLOSEBY" Type="varchar2" MaxLength="10" />
+          <Property Name="FINCLOSEDATE" Type="date" />
+          <Property Name="FINCLOSEBY" Type="varchar2" MaxLength="10" />
+          <Property Name="PODATE" Type="date" />
+          <Property Name="POTIME" Type="varchar2" MaxLength="4" />
+          <Property Name="BOOKINGTIME" Type="varchar2" MaxLength="4" />
+          <Property Name="CONSOLBKNO" Type="varchar2" MaxLength="20" />
+          <Property Name="SUREFNO" Type="varchar2" MaxLength="50" />
+          <Property Name="SPREFNO" Type="varchar2" MaxLength="50" />
+          <Property Name="VOIDTYPE" Type="varchar2" MaxLength="1" />
+          <Property Name="REVCLOSEDATE" Type="date" />
+          <Property Name="REVCLOSEBY" Type="varchar2" MaxLength="10" />
+          <Property Name="COSTCLOSEDATE" Type="date" />
+          <Property Name="COSTCLOSEBY" Type="varchar2" MaxLength="10" />
+          <Property Name="TOTNVOL" Type="number" Precision="14" Scale="4" />
+          <Property Name="ISCWGTBASENET" Type="number" Precision="1" Scale="0" />
+          <Property Name="JOBTYPE" Type="varchar2" MaxLength="10" />
+          <Property Name="VIANAME" Type="varchar2" MaxLength="35" />
+          <Property Name="QUOTENO" Type="varchar2" MaxLength="20" />
+          <Property Name="QUOTESUBNO" Type="varchar2" MaxLength="10" />
+          <Property Name="QUOTE_UNID" Type="number" Precision="18" Scale="0" />
+          <Property Name="VALIDFROM" Type="date" />
+          <Property Name="VALIDTO" Type="date" />
+          <Property Name="EFFECTVALIDTO" Type="date" />
+          <Property Name="QUOTETYPE" Type="varchar2" MaxLength="20" />
+          <Property Name="PORETADATE" Type="date" />
+          <Property Name="PORETATIME" Type="varchar2" MaxLength="4" />
+          <Property Name="DEVRYETDDATE" Type="date" />
+          <Property Name="DEVRYETDTIME" Type="varchar2" MaxLength="4" />
+          <Property Name="PORETDDATE" Type="date" />
+          <Property Name="PORETDTIME" Type="varchar2" MaxLength="4" />
+          <Property Name="DEVRYETADATE" Type="date" />
+          <Property Name="DEVRYETATIME" Type="varchar2" MaxLength="4" />
+          <Property Name="SENDERID" Type="varchar2" MaxLength="10" />
+          <Property Name="POSTDATETOBE" Type="date" />
+          <Property Name="CLOSINGDATE" Type="date" />
+          <Property Name="TOBASEEXRATE" Type="number" Precision="14" Scale="7" />
+          <Property Name="FROMBASEEXRATE" Type="number" Precision="14" Scale="7" />
+          <Property Name="SHIPMENTUNID" Type="number" Precision="18" Scale="0" />
+          <Property Name="CONVTOTGWGT" Type="number" Precision="14" Scale="4" />
+          <Property Name="CONVTOTGWGT_UT" Type="varchar2" MaxLength="3" />
+          <Property Name="CONVTOTNWGT" Type="number" Precision="13" Scale="3" />
+          <Property Name="CONVTOTNWGT_UT" Type="varchar2" MaxLength="3" />
+          <Property Name="CONVTOTVOL" Type="number" Precision="14" Scale="4" />
+          <Property Name="CONVTOTVOL_UT" Type="varchar2" MaxLength="3" />
+          <Property Name="CONVTOTNVOL" Type="number" Precision="14" Scale="4" />
+          <Property Name="POLETDDATE" Type="date" />
+          <Property Name="PODETADATE" Type="date" />
+          <Property Name="FINALDESTETADATE" Type="date" />
+          <Property Name="VVTHIRD_UNID" Type="number" Precision="18" Scale="0" />
+          <Property Name="RECOGNITION" Type="number" Precision="1" Scale="0" />
+          <Property Name="POLPORTSNO" Type="number" Precision="9" Scale="0" />
+          <Property Name="PODPORTSNO" Type="number" Precision="9" Scale="0" />
+          <Property Name="POLVVUNID" Type="number" Precision="18" Scale="0" />
+          <Property Name="PODVVUNID" Type="number" Precision="18" Scale="0" />
+          <Property Name="VIAZONE" Type="varchar2" MaxLength="10" />
+          <Property Name="TSPCITY" Type="varchar2" MaxLength="3" />
+          <Property Name="TSPCTRY" Type="varchar2" MaxLength="2" />
+          <Property Name="TSPNAME" Type="varchar2" MaxLength="35" />
+          <Property Name="ISBTBSHP" Type="number" Precision="1" Scale="0" />
+          <Property Name="ISLOCALJOB" Type="number" Precision="1" Scale="0" />
+          <Property Name="ISHUB" Type="number" Precision="1" Scale="0" />
+          <Property Name="READYCLOSEBY" Type="varchar2" MaxLength="10" />
+          <Property Name="POLETDTIME" Type="varchar2" MaxLength="4" />
+          <Property Name="PODETATIME" Type="varchar2" MaxLength="4" />
+          <Property Name="LASTRECDATE" Type="date" />
+          <Property Name="LASTRECTIME" Type="varchar2" MaxLength="4" />
+        </EntityType>
+        <EntityContainer Name="ModelStoreContainer">
+          <EntitySet Name="JOB" EntityType="Self.JOB" Schema="KEWILLFWD" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="JOB">
+          <Key>
+            <PropertyRef Name="UNID" />
+          </Key>
+          <Property Name="UNID" Type="Int64" Nullable="false" />
+          <Property Name="VV_UNID" Type="Int64" />
+          <Property Name="VVSECOND_UNID" Type="Int64" />
+          <Property Name="OWNERID" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="GSHPID" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="BIZTYPE" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+          <Property Name="BOOKINGNO" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="BOOKINGDATE" Type="DateTime" />
+          <Property Name="SHPNO" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="CONSOLNO" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="CONSOLLOT_UNID" Type="Int64" />
+          <Property Name="JOBNO" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="JOBDATE" Type="DateTime" />
+          <Property Name="PROJECTNO" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="SHPTYPE" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+          <Property Name="OAGENT" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="PARTYID_CUST" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="CUSTNAME" Type="String" MaxLength="70" FixedLength="false" Unicode="false" />
+          <Property Name="CARRIERID" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="CARRIERCODE" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="PARTYID_SHPR" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="SHPRNAME" Type="String" MaxLength="70" FixedLength="false" Unicode="false" />
+          <Property Name="PARTYID_CSGN" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="CSGNNAME" Type="String" MaxLength="70" FixedLength="false" Unicode="false" />
+          <Property Name="PORCITY" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+          <Property Name="PORCTRY" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+          <Property Name="PORNAME" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="PORMODE" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="POLCITY" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+          <Property Name="POLCTRY" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+          <Property Name="POLNAME" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="VIACITY" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+          <Property Name="VIACTRY" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+          <Property Name="PODCITY" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+          <Property Name="PODCTRY" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+          <Property Name="PODNAME" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="DESTCITY" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+          <Property Name="DESTCTRY" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+          <Property Name="DESTNAME" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="DEVRYCITY" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+          <Property Name="DEVRYCTRY" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+          <Property Name="DEVRYNAME" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="FLTDATE" Type="DateTime" />
+          <Property Name="FLTTIME" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+          <Property Name="TOTPCS" Type="Int32" />
+          <Property Name="TOTPCS_UT" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+          <Property Name="TOTGWGT" Type="Decimal" Precision="14" Scale="4" />
+          <Property Name="TOTGWGT_UT" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+          <Property Name="TOTCWGT" Type="Decimal" Precision="14" Scale="4" />
+          <Property Name="TOTCWGT_UT" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+          <Property Name="VWGT" Type="Decimal" Precision="13" Scale="3" />
+          <Property Name="VWGT_UT" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+          <Property Name="AWBBLDATE" Type="DateTime" />
+          <Property Name="ORGID" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="JOBSTAGECODE" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+          <Property Name="CURRENTSTATUS" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="CURRENTSTAGE" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="PROCESSSTATUS" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+          <Property Name="USERHLEVEL" Type="String" MaxLength="2000" FixedLength="false" Unicode="false" />
+          <Property Name="CREATEBY" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="CREATEDATE" Type="DateTime" />
+          <Property Name="UPDATEBY" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="UPDATEDATE" Type="DateTime" />
+          <Property Name="TIMEZONE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="TOTVOL" Type="Decimal" Precision="14" Scale="4" />
+          <Property Name="TOTVOL_UT" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+          <Property Name="VOIDBY" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="VOIDDATE" Type="DateTime" />
+          <Property Name="ISBOOKING" Type="Int16" />
+          <Property Name="ISSHP" Type="Int16" />
+          <Property Name="TOTNWGT" Type="Decimal" Precision="13" Scale="3" />
+          <Property Name="TOTNWGT_UT" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+          <Property Name="TOTINNERPCS" Type="Decimal" Precision="14" Scale="4" />
+          <Property Name="TOTINNERPCS_UT" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+          <Property Name="CONCLOSEDATE" Type="DateTime" />
+          <Property Name="CONCLOSEBY" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="FINCLOSEDATE" Type="DateTime" />
+          <Property Name="FINCLOSEBY" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="PODATE" Type="DateTime" />
+          <Property Name="POTIME" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+          <Property Name="BOOKINGTIME" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+          <Property Name="CONSOLBKNO" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="SUREFNO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="SPREFNO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="VOIDTYPE" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+          <Property Name="REVCLOSEDATE" Type="DateTime" />
+          <Property Name="REVCLOSEBY" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="COSTCLOSEDATE" Type="DateTime" />
+          <Property Name="COSTCLOSEBY" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="TOTNVOL" Type="Decimal" Precision="14" Scale="4" />
+          <Property Name="ISCWGTBASENET" Type="Int16" />
+          <Property Name="JOBTYPE" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="VIANAME" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="QUOTENO" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="QUOTESUBNO" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="QUOTE_UNID" Type="Int64" />
+          <Property Name="VALIDFROM" Type="DateTime" />
+          <Property Name="VALIDTO" Type="DateTime" />
+          <Property Name="EFFECTVALIDTO" Type="DateTime" />
+          <Property Name="QUOTETYPE" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="PORETADATE" Type="DateTime" />
+          <Property Name="PORETATIME" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+          <Property Name="DEVRYETDDATE" Type="DateTime" />
+          <Property Name="DEVRYETDTIME" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+          <Property Name="PORETDDATE" Type="DateTime" />
+          <Property Name="PORETDTIME" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+          <Property Name="DEVRYETADATE" Type="DateTime" />
+          <Property Name="DEVRYETATIME" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+          <Property Name="SENDERID" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="POSTDATETOBE" Type="DateTime" />
+          <Property Name="CLOSINGDATE" Type="DateTime" />
+          <Property Name="TOBASEEXRATE" Type="Decimal" Precision="14" Scale="7" />
+          <Property Name="FROMBASEEXRATE" Type="Decimal" Precision="14" Scale="7" />
+          <Property Name="SHIPMENTUNID" Type="Int64" />
+          <Property Name="CONVTOTGWGT" Type="Decimal" Precision="14" Scale="4" />
+          <Property Name="CONVTOTGWGT_UT" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+          <Property Name="CONVTOTNWGT" Type="Decimal" Precision="13" Scale="3" />
+          <Property Name="CONVTOTNWGT_UT" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+          <Property Name="CONVTOTVOL" Type="Decimal" Precision="14" Scale="4" />
+          <Property Name="CONVTOTVOL_UT" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+          <Property Name="CONVTOTNVOL" Type="Decimal" Precision="14" Scale="4" />
+          <Property Name="POLETDDATE" Type="DateTime" />
+          <Property Name="PODETADATE" Type="DateTime" />
+          <Property Name="FINALDESTETADATE" Type="DateTime" />
+          <Property Name="VVTHIRD_UNID" Type="Int64" />
+          <Property Name="RECOGNITION" Type="Int16" />
+          <Property Name="POLPORTSNO" Type="Int32" />
+          <Property Name="PODPORTSNO" Type="Int32" />
+          <Property Name="POLVVUNID" Type="Int64" />
+          <Property Name="PODVVUNID" Type="Int64" />
+          <Property Name="VIAZONE" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="TSPCITY" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+          <Property Name="TSPCTRY" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+          <Property Name="TSPNAME" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="ISBTBSHP" Type="Int16" />
+          <Property Name="ISLOCALJOB" Type="Int16" />
+          <Property Name="ISHUB" Type="Int16" />
+          <Property Name="READYCLOSEBY" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="POLETDTIME" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+          <Property Name="PODETATIME" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+          <Property Name="LASTRECDATE" Type="DateTime" />
+          <Property Name="LASTRECTIME" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityContainer Name="K3ProdDrEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="JOB" EntityType="Self.JOB" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="ModelStoreContainer" CdmEntityContainer="K3ProdDrEntities">
+          <EntitySetMapping Name="JOB">
+            <EntityTypeMapping TypeName="Model.JOB">
+              <MappingFragment StoreEntitySet="JOB">
+                <ScalarProperty Name="UNID" ColumnName="UNID" />
+                <ScalarProperty Name="VV_UNID" ColumnName="VV_UNID" />
+                <ScalarProperty Name="VVSECOND_UNID" ColumnName="VVSECOND_UNID" />
+                <ScalarProperty Name="OWNERID" ColumnName="OWNERID" />
+                <ScalarProperty Name="GSHPID" ColumnName="GSHPID" />
+                <ScalarProperty Name="BIZTYPE" ColumnName="BIZTYPE" />
+                <ScalarProperty Name="BOOKINGNO" ColumnName="BOOKINGNO" />
+                <ScalarProperty Name="BOOKINGDATE" ColumnName="BOOKINGDATE" />
+                <ScalarProperty Name="SHPNO" ColumnName="SHPNO" />
+                <ScalarProperty Name="CONSOLNO" ColumnName="CONSOLNO" />
+                <ScalarProperty Name="CONSOLLOT_UNID" ColumnName="CONSOLLOT_UNID" />
+                <ScalarProperty Name="JOBNO" ColumnName="JOBNO" />
+                <ScalarProperty Name="JOBDATE" ColumnName="JOBDATE" />
+                <ScalarProperty Name="PROJECTNO" ColumnName="PROJECTNO" />
+                <ScalarProperty Name="SHPTYPE" ColumnName="SHPTYPE" />
+                <ScalarProperty Name="OAGENT" ColumnName="OAGENT" />
+                <ScalarProperty Name="PARTYID_CUST" ColumnName="PARTYID_CUST" />
+                <ScalarProperty Name="CUSTNAME" ColumnName="CUSTNAME" />
+                <ScalarProperty Name="CARRIERID" ColumnName="CARRIERID" />
+                <ScalarProperty Name="CARRIERCODE" ColumnName="CARRIERCODE" />
+                <ScalarProperty Name="PARTYID_SHPR" ColumnName="PARTYID_SHPR" />
+                <ScalarProperty Name="SHPRNAME" ColumnName="SHPRNAME" />
+                <ScalarProperty Name="PARTYID_CSGN" ColumnName="PARTYID_CSGN" />
+                <ScalarProperty Name="CSGNNAME" ColumnName="CSGNNAME" />
+                <ScalarProperty Name="PORCITY" ColumnName="PORCITY" />
+                <ScalarProperty Name="PORCTRY" ColumnName="PORCTRY" />
+                <ScalarProperty Name="PORNAME" ColumnName="PORNAME" />
+                <ScalarProperty Name="PORMODE" ColumnName="PORMODE" />
+                <ScalarProperty Name="POLCITY" ColumnName="POLCITY" />
+                <ScalarProperty Name="POLCTRY" ColumnName="POLCTRY" />
+                <ScalarProperty Name="POLNAME" ColumnName="POLNAME" />
+                <ScalarProperty Name="VIACITY" ColumnName="VIACITY" />
+                <ScalarProperty Name="VIACTRY" ColumnName="VIACTRY" />
+                <ScalarProperty Name="PODCITY" ColumnName="PODCITY" />
+                <ScalarProperty Name="PODCTRY" ColumnName="PODCTRY" />
+                <ScalarProperty Name="PODNAME" ColumnName="PODNAME" />
+                <ScalarProperty Name="DESTCITY" ColumnName="DESTCITY" />
+                <ScalarProperty Name="DESTCTRY" ColumnName="DESTCTRY" />
+                <ScalarProperty Name="DESTNAME" ColumnName="DESTNAME" />
+                <ScalarProperty Name="DEVRYCITY" ColumnName="DEVRYCITY" />
+                <ScalarProperty Name="DEVRYCTRY" ColumnName="DEVRYCTRY" />
+                <ScalarProperty Name="DEVRYNAME" ColumnName="DEVRYNAME" />
+                <ScalarProperty Name="FLTDATE" ColumnName="FLTDATE" />
+                <ScalarProperty Name="FLTTIME" ColumnName="FLTTIME" />
+                <ScalarProperty Name="TOTPCS" ColumnName="TOTPCS" />
+                <ScalarProperty Name="TOTPCS_UT" ColumnName="TOTPCS_UT" />
+                <ScalarProperty Name="TOTGWGT" ColumnName="TOTGWGT" />
+                <ScalarProperty Name="TOTGWGT_UT" ColumnName="TOTGWGT_UT" />
+                <ScalarProperty Name="TOTCWGT" ColumnName="TOTCWGT" />
+                <ScalarProperty Name="TOTCWGT_UT" ColumnName="TOTCWGT_UT" />
+                <ScalarProperty Name="VWGT" ColumnName="VWGT" />
+                <ScalarProperty Name="VWGT_UT" ColumnName="VWGT_UT" />
+                <ScalarProperty Name="AWBBLDATE" ColumnName="AWBBLDATE" />
+                <ScalarProperty Name="ORGID" ColumnName="ORGID" />
+                <ScalarProperty Name="JOBSTAGECODE" ColumnName="JOBSTAGECODE" />
+                <ScalarProperty Name="CURRENTSTATUS" ColumnName="CURRENTSTATUS" />
+                <ScalarProperty Name="CURRENTSTAGE" ColumnName="CURRENTSTAGE" />
+                <ScalarProperty Name="PROCESSSTATUS" ColumnName="PROCESSSTATUS" />
+                <ScalarProperty Name="USERHLEVEL" ColumnName="USERHLEVEL" />
+                <ScalarProperty Name="CREATEBY" ColumnName="CREATEBY" />
+                <ScalarProperty Name="CREATEDATE" ColumnName="CREATEDATE" />
+                <ScalarProperty Name="UPDATEBY" ColumnName="UPDATEBY" />
+                <ScalarProperty Name="UPDATEDATE" ColumnName="UPDATEDATE" />
+                <ScalarProperty Name="TIMEZONE" ColumnName="TIMEZONE" />
+                <ScalarProperty Name="TOTVOL" ColumnName="TOTVOL" />
+                <ScalarProperty Name="TOTVOL_UT" ColumnName="TOTVOL_UT" />
+                <ScalarProperty Name="VOIDBY" ColumnName="VOIDBY" />
+                <ScalarProperty Name="VOIDDATE" ColumnName="VOIDDATE" />
+                <ScalarProperty Name="ISBOOKING" ColumnName="ISBOOKING" />
+                <ScalarProperty Name="ISSHP" ColumnName="ISSHP" />
+                <ScalarProperty Name="TOTNWGT" ColumnName="TOTNWGT" />
+                <ScalarProperty Name="TOTNWGT_UT" ColumnName="TOTNWGT_UT" />
+                <ScalarProperty Name="TOTINNERPCS" ColumnName="TOTINNERPCS" />
+                <ScalarProperty Name="TOTINNERPCS_UT" ColumnName="TOTINNERPCS_UT" />
+                <ScalarProperty Name="CONCLOSEDATE" ColumnName="CONCLOSEDATE" />
+                <ScalarProperty Name="CONCLOSEBY" ColumnName="CONCLOSEBY" />
+                <ScalarProperty Name="FINCLOSEDATE" ColumnName="FINCLOSEDATE" />
+                <ScalarProperty Name="FINCLOSEBY" ColumnName="FINCLOSEBY" />
+                <ScalarProperty Name="PODATE" ColumnName="PODATE" />
+                <ScalarProperty Name="POTIME" ColumnName="POTIME" />
+                <ScalarProperty Name="BOOKINGTIME" ColumnName="BOOKINGTIME" />
+                <ScalarProperty Name="CONSOLBKNO" ColumnName="CONSOLBKNO" />
+                <ScalarProperty Name="SUREFNO" ColumnName="SUREFNO" />
+                <ScalarProperty Name="SPREFNO" ColumnName="SPREFNO" />
+                <ScalarProperty Name="VOIDTYPE" ColumnName="VOIDTYPE" />
+                <ScalarProperty Name="REVCLOSEDATE" ColumnName="REVCLOSEDATE" />
+                <ScalarProperty Name="REVCLOSEBY" ColumnName="REVCLOSEBY" />
+                <ScalarProperty Name="COSTCLOSEDATE" ColumnName="COSTCLOSEDATE" />
+                <ScalarProperty Name="COSTCLOSEBY" ColumnName="COSTCLOSEBY" />
+                <ScalarProperty Name="TOTNVOL" ColumnName="TOTNVOL" />
+                <ScalarProperty Name="ISCWGTBASENET" ColumnName="ISCWGTBASENET" />
+                <ScalarProperty Name="JOBTYPE" ColumnName="JOBTYPE" />
+                <ScalarProperty Name="VIANAME" ColumnName="VIANAME" />
+                <ScalarProperty Name="QUOTENO" ColumnName="QUOTENO" />
+                <ScalarProperty Name="QUOTESUBNO" ColumnName="QUOTESUBNO" />
+                <ScalarProperty Name="QUOTE_UNID" ColumnName="QUOTE_UNID" />
+                <ScalarProperty Name="VALIDFROM" ColumnName="VALIDFROM" />
+                <ScalarProperty Name="VALIDTO" ColumnName="VALIDTO" />
+                <ScalarProperty Name="EFFECTVALIDTO" ColumnName="EFFECTVALIDTO" />
+                <ScalarProperty Name="QUOTETYPE" ColumnName="QUOTETYPE" />
+                <ScalarProperty Name="PORETADATE" ColumnName="PORETADATE" />
+                <ScalarProperty Name="PORETATIME" ColumnName="PORETATIME" />
+                <ScalarProperty Name="DEVRYETDDATE" ColumnName="DEVRYETDDATE" />
+                <ScalarProperty Name="DEVRYETDTIME" ColumnName="DEVRYETDTIME" />
+                <ScalarProperty Name="PORETDDATE" ColumnName="PORETDDATE" />
+                <ScalarProperty Name="PORETDTIME" ColumnName="PORETDTIME" />
+                <ScalarProperty Name="DEVRYETADATE" ColumnName="DEVRYETADATE" />
+                <ScalarProperty Name="DEVRYETATIME" ColumnName="DEVRYETATIME" />
+                <ScalarProperty Name="SENDERID" ColumnName="SENDERID" />
+                <ScalarProperty Name="POSTDATETOBE" ColumnName="POSTDATETOBE" />
+                <ScalarProperty Name="CLOSINGDATE" ColumnName="CLOSINGDATE" />
+                <ScalarProperty Name="TOBASEEXRATE" ColumnName="TOBASEEXRATE" />
+                <ScalarProperty Name="FROMBASEEXRATE" ColumnName="FROMBASEEXRATE" />
+                <ScalarProperty Name="SHIPMENTUNID" ColumnName="SHIPMENTUNID" />
+                <ScalarProperty Name="CONVTOTGWGT" ColumnName="CONVTOTGWGT" />
+                <ScalarProperty Name="CONVTOTGWGT_UT" ColumnName="CONVTOTGWGT_UT" />
+                <ScalarProperty Name="CONVTOTNWGT" ColumnName="CONVTOTNWGT" />
+                <ScalarProperty Name="CONVTOTNWGT_UT" ColumnName="CONVTOTNWGT_UT" />
+                <ScalarProperty Name="CONVTOTVOL" ColumnName="CONVTOTVOL" />
+                <ScalarProperty Name="CONVTOTVOL_UT" ColumnName="CONVTOTVOL_UT" />
+                <ScalarProperty Name="CONVTOTNVOL" ColumnName="CONVTOTNVOL" />
+                <ScalarProperty Name="POLETDDATE" ColumnName="POLETDDATE" />
+                <ScalarProperty Name="PODETADATE" ColumnName="PODETADATE" />
+                <ScalarProperty Name="FINALDESTETADATE" ColumnName="FINALDESTETADATE" />
+                <ScalarProperty Name="VVTHIRD_UNID" ColumnName="VVTHIRD_UNID" />
+                <ScalarProperty Name="RECOGNITION" ColumnName="RECOGNITION" />
+                <ScalarProperty Name="POLPORTSNO" ColumnName="POLPORTSNO" />
+                <ScalarProperty Name="PODPORTSNO" ColumnName="PODPORTSNO" />
+                <ScalarProperty Name="POLVVUNID" ColumnName="POLVVUNID" />
+                <ScalarProperty Name="PODVVUNID" ColumnName="PODVVUNID" />
+                <ScalarProperty Name="VIAZONE" ColumnName="VIAZONE" />
+                <ScalarProperty Name="TSPCITY" ColumnName="TSPCITY" />
+                <ScalarProperty Name="TSPCTRY" ColumnName="TSPCTRY" />
+                <ScalarProperty Name="TSPNAME" ColumnName="TSPNAME" />
+                <ScalarProperty Name="ISBTBSHP" ColumnName="ISBTBSHP" />
+                <ScalarProperty Name="ISLOCALJOB" ColumnName="ISLOCALJOB" />
+                <ScalarProperty Name="ISHUB" ColumnName="ISHUB" />
+                <ScalarProperty Name="READYCLOSEBY" ColumnName="READYCLOSEBY" />
+                <ScalarProperty Name="POLETDTIME" ColumnName="POLETDTIME" />
+                <ScalarProperty Name="PODETATIME" ColumnName="PODETATIME" />
+                <ScalarProperty Name="LASTRECDATE" ColumnName="LASTRECDATE" />
+                <ScalarProperty Name="LASTRECTIME" ColumnName="LASTRECTIME" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="true" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

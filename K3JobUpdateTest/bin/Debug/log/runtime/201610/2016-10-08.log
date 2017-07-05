@@ -1,0 +1,17 @@
+----------------------header--------------------------
+Current Time:2016-10-08 10:07:24,036 Type:[INFO]  Information:prod update job  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\K3JobUpdateTest\UnitTest1.cs Line:119 
+----------------------footer--------------------------
+----------------------header--------------------------
+Current Time:2016-10-08 10:08:18,737 Type:[INFO]  Information:prod update job  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\K3JobUpdateTest\UnitTest1.cs Line:119 
+----------------------header--------------------------
+Current Time:2016-10-08 10:11:42,318 Type:[INFO]  Information:prod update job  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\K3JobUpdateTest\UnitTest1.cs Line:119 
+Current Time:2016-10-08 10:11:50,084 Type:[INFO]  Information:------Start insert into table joblink data :------  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\InsertActionJob.cs Line:58 
+Current Time:2016-10-08 10:12:05,100 Type:[INFO]  Information:------Start insert into table joblink data :------  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\InsertActionJob.cs Line:58 
+----------------------header--------------------------
+Current Time:2016-10-08 10:15:22,854 Type:[INFO]  Information:prod update job  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\K3JobUpdateTest\UnitTest1.cs Line:119 
+Current Time:2016-10-08 10:15:26,136 Type:[INFO]  Information:------Start insert into table joblink data :------  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\InsertActionJob.cs Line:58 
+Current Time:2016-10-08 10:15:28,962 Type:[INFO]  Information:Add Command error :ORA-01031: È¨ÏÞ²»×ã  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\InsertActionJob.cs Line:77 
+----------------------footer--------------------------
+----------------------header--------------------------
+Current Time:2016-10-08 10:15:41,755 Type:[INFO]  Information:prod update job  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\K3JobUpdateTest\UnitTest1.cs Line:119 
+Current Time:2016-10-08 10:15:52,013 Type:[INFO]  Information:------Start insert into table joblink data :------  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\InsertActionJob.cs Line:58 

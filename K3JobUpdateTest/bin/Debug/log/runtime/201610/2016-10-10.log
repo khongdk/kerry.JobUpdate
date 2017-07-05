@@ -1,0 +1,18 @@
+----------------------header--------------------------
+Current Time:2016-10-10 09:18:06,658 Type:[INFO]  Information:prod update job  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\K3JobUpdateTest\UnitTest1.cs Line:119 
+Current Time:2016-10-10 09:18:08,236 Type:[INFO]  Information:------Start insert into table joblink data :------  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\InsertActionJob.cs Line:59 
+Current Time:2016-10-10 09:18:09,106 Type:[INFO]  Information:job_unid [1] insert joblink success !  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\InsertActionJob.cs Line:79 
+Current Time:2016-10-10 09:18:09,108 Type:[INFO]  Information:------End insert into table joblink data :------  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\InsertActionJob.cs Line:83 
+----------------------footer--------------------------
+----------------------header--------------------------
+Current Time:2016-10-10 09:18:29,482 Type:[INFO]  Information:prod update job  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\K3JobUpdateTest\UnitTest1.cs Line:119 
+Current Time:2016-10-10 09:19:15,450 Type:[INFO]  Information:------Start insert into table joblink data :------  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\InsertActionJob.cs Line:59 
+Current Time:2016-10-10 09:19:28,424 Type:[INFO]  Information:job_unid [1] already insert joblink !  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\InsertActionJob.cs Line:72 
+Current Time:2016-10-10 09:19:32,050 Type:[INFO]  Information:------End insert into table joblink data :------  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\InsertActionJob.cs Line:83 
+----------------------footer--------------------------
+----------------------header--------------------------
+Current Time:2016-10-10 09:20:51,222 Type:[INFO]  Information:prod update job  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\K3JobUpdateTest\UnitTest1.cs Line:119 
+Current Time:2016-10-10 09:21:03,861 Type:[INFO]  Information:------Start insert into table joblink data :------  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\InsertActionJob.cs Line:59 
+Current Time:2016-10-10 09:21:25,468 Type:[INFO]  Information:job_unid [1] insert joblink success !  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\InsertActionJob.cs Line:79 
+Current Time:2016-10-10 09:21:32,962 Type:[INFO]  Information:------End insert into table joblink data :------  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\InsertActionJob.cs Line:83 
+----------------------footer--------------------------

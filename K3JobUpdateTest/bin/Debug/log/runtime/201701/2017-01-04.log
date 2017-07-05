@@ -1,0 +1,33 @@
+----------------------header--------------------------
+Current Time:2017-01-04 16:46:14,491 Type:[INFO]  Information:prod update job  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\K3JobUpdateTest\UnitTest1.cs Line:120 
+----------------------header--------------------------
+Current Time:2017-01-04 17:02:22,372 Type:[INFO]  Information:prod update job  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\K3JobUpdateTest\UnitTest1.cs Line:120 
+----------------------header--------------------------
+Current Time:2017-01-04 17:07:48,787 Type:[INFO]  Information:prod update job  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\K3JobUpdateTest\UnitTest1.cs Line:120 
+Current Time:2017-01-04 17:08:13,392 Type:[INFO]  Information:------Start insert into table joblink data :------  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\InsertActionJob.cs Line:57 
+Current Time:2017-01-04 17:08:17,809 Type:[INFO]  Information:job_unid [1] insert joblink success !  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\InsertActionJob.cs Line:100 
+Current Time:2017-01-04 17:08:17,810 Type:[INFO]  Information:------End insert into table joblink data :------  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\InsertActionJob.cs Line:118 
+----------------------header--------------------------
+Current Time:2017-01-04 17:27:29,670 Type:[INFO]  Information:prod update job  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\K3JobUpdateTest\UnitTest1.cs Line:120 
+Current Time:2017-01-04 17:29:29,746 Type:[INFO]  Information:------Start insert into table joblink data :------  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\InsertActionJob.cs Line:57 
+Current Time:2017-01-04 17:29:33,097 Type:[INFO]  Information:job_unid [2926258] insert joblink success !  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\InsertActionJob.cs Line:100 
+Current Time:2017-01-04 17:29:33,309 Type:[INFO]  Information:job_unid [2918146] already insert joblink !  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\InsertActionJob.cs Line:112 
+Current Time:2017-01-04 17:29:33,671 Type:[INFO]  Information:job_unid [2926266] insert joblink success !  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\InsertActionJob.cs Line:100 
+Current Time:2017-01-04 17:29:33,958 Type:[INFO]  Information:job_unid [2929070] insert joblink success !  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\InsertActionJob.cs Line:100 
+Current Time:2017-01-04 17:29:34,103 Type:[INFO]  Information:job_unid [2929068] already insert joblink !  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\InsertActionJob.cs Line:112 
+Current Time:2017-01-04 17:29:34,247 Type:[INFO]  Information:job_unid [2916727] already insert joblink !  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\InsertActionJob.cs Line:112 
+Current Time:2017-01-04 17:29:34,388 Type:[INFO]  Information:job_unid [2916723] already insert joblink !  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\InsertActionJob.cs Line:112 
+Current Time:2017-01-04 17:29:34,674 Type:[INFO]  Information:job_unid [2936626] insert joblink success !  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\InsertActionJob.cs Line:100 
+Current Time:2017-01-04 17:29:34,815 Type:[INFO]  Information:job_unid [2903064] already insert joblink !  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\InsertActionJob.cs Line:112 
+Current Time:2017-01-04 17:29:34,957 Type:[INFO]  Information:job_unid [2899462] already insert joblink !  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\InsertActionJob.cs Line:112 
+Current Time:2017-01-04 17:29:35,101 Type:[INFO]  Information:job_unid [2924463] already insert joblink !  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\InsertActionJob.cs Line:112 
+Current Time:2017-01-04 17:29:35,243 Type:[INFO]  Information:job_unid [2921534] already insert joblink !  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\InsertActionJob.cs Line:112 
+Current Time:2017-01-04 17:29:35,390 Type:[INFO]  Information:job_unid [2884904] already insert joblink !  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\InsertActionJob.cs Line:112 
+Current Time:2017-01-04 17:29:35,535 Type:[INFO]  Information:job_unid [2924366] already insert joblink !  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\InsertActionJob.cs Line:112 
+Current Time:2017-01-04 17:29:35,676 Type:[INFO]  Information:job_unid [2917434] already insert joblink !  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\InsertActionJob.cs Line:112 
+Current Time:2017-01-04 17:29:35,892 Type:[INFO]  Information:job_unid [2927928] insert joblink success !  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\InsertActionJob.cs Line:100 
+Current Time:2017-01-04 17:29:36,106 Type:[INFO]  Information:job_unid [2926255] insert joblink success !  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\InsertActionJob.cs Line:100 
+Current Time:2017-01-04 17:29:36,225 Type:[INFO]  Information:job_unid [2920306] already insert joblink !  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\InsertActionJob.cs Line:112 
+Current Time:2017-01-04 17:29:36,341 Type:[INFO]  Information:job_unid [2917199] already insert joblink !  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\InsertActionJob.cs Line:112 
+Current Time:2017-01-04 17:29:36,345 Type:[INFO]  Information:------End insert into table joblink data :------  Class:d:\Project\Kerry.K3.JobUpdate.Scheduler\Kerry.K3.JobUpdate.Scheduler\Job Methor\InsertActionJob.cs Line:118 
+----------------------footer--------------------------
